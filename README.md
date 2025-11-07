@@ -7,8 +7,8 @@
 <div align="center" style="font-size: 15pt">
 
 <a href='https://arxiv.org/abs/2511.04570'><img src='https://img.shields.io/badge/Arxiv-2511.04570-purple'></a>
-<a href='https://huggingface.co/datasets/fnlp/VideoThinkBench'><img src='https://img.shields.io/badge/Project-Website-green'></a>
-<a href='https://huggingface.co/datasets/fnlp/VideoThinkBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow'></a>
+<a href='https://thinking-with-video.github.io'><img src='https://img.shields.io/badge/Project-Website-green'></a>
+<a href='https://huggingface.co/datasets/OpenMOSS-Team/VideoThinkBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow'></a>
 
 </div>
 
