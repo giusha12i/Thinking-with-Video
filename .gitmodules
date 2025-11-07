@@ -1,0 +1,3 @@
+[submodule "VisionCentric"]
+	path = VisionCentric
+	url = https://github.com/betmma/VLMPuzzle.git
