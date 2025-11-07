@@ -32,8 +32,7 @@ Moving beyond the traditional paradigms of "Thinking with Text" (e.g., Chain-of-
 &nbsp;&nbsp;&nbsp;&nbsp;Our evaluation shows that Sora-2 demonstrates competitive reasoning capabilities across both categories. Notably, Sora-2 **surpasses state-of-the-art vision-language models on several vision-centric tasks**, showcasing the unique advantages of dynamic visual reasoning. On text-centric tasks, Sora-2 achieves strong performance including 98.9% on GSM8K, 94.0% on MATH, and 75.5% on MMMU, demonstrating the potential of "Thinking with Video" as a unified multimodal reasoning paradigm.
 
 <div align="center">
-<!-- Add your main figure here when available -->
-<!-- <img src="assets/main_figure.png" width=80% /> -->
+<img src="assets/main_picture.png" width=80% />
 </div>
 
 
