@@ -14,6 +14,12 @@
 
 </div>
 
+<div align="center">
+  <a href="https://huggingface.co/papers/2511.04570" target="_blank">
+    <img src="assets/huggingface_paper_blue_aligned.svg"/>
+  </a>
+</div>
+
 ## 🎊 News <!-- omit in toc -->
 
 - [2025.11.07] Our paper "Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm" has been released on arXiv! 📄 [[Paper](https://arxiv.org/abs/2511.04570)]
