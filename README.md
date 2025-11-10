@@ -15,8 +15,8 @@
 </div>
 
 <div align="center">
-  <a href="https://huggingface.co/papers/date/2025-11-07">
-    <img src="assets/huggingface_paper_blue_aligned.svg"/>
+  <a href="https://huggingface.co/papers/week/2025-W45">
+    <img src="assets/huggingface_paper_gold_week.svg"/>
   </a>
 </div>
 
