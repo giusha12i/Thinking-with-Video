@@ -5,3 +5,5 @@ pytesseract
 opencv-python
 openai
 python-dotenv
+huggingface_hub
+httpx[socks]

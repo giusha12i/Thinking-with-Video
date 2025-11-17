@@ -40,7 +40,7 @@ Moving beyond the traditional paradigms of "Thinking with Text" (e.g., Chain-of-
 &nbsp;&nbsp;&nbsp;&nbsp;Our evaluation shows that Sora-2 demonstrates competitive reasoning capabilities across both categories. Notably, Sora-2 **surpasses state-of-the-art vision-language models on several vision-centric tasks**, showcasing the unique advantages of dynamic visual reasoning. On text-centric tasks, Sora-2 achieves strong performance including 98.9% on GSM8K, 94.0% on MATH, and 75.5% on MMMU, demonstrating the potential of "Thinking with Video" as a unified multimodal reasoning paradigm.
 
 <div align="center">
-<img src="assets/main_picture.png" width=90% />
+<img src="assets/main_picture.png" width=100% />
 </div>
 
 
@@ -55,23 +55,34 @@ Moving beyond the traditional paradigms of "Thinking with Text" (e.g., Chain-of-
 - [Contact](#contact)
 
 
-## Installation
+## Installation and Dataset Download <!-- omit in toc -->
 *Currently, only Eyeballing Puzzles, Mazes and ARC-AGI-2 (vision-centric tasks excluding Visual Puzzles) are available. They are all under VisualCentric/ submodule.*
 
 1. Clone this repository and navigate to Thinking-with-Video folder
-```bash
-git clone https://github.com/tongjingqi/Thinking-with-Video.git
-cd Thinking-with-Video
-```
+   ```bash
+   git clone https://github.com/tongjingqi/Thinking-with-Video.git
+   cd Thinking-with-Video
+   ```
 
 2. Install dependencies
-```bash
-conda create -y -n thinking_with_video python==3.12
-conda activate thinking_with_video
-pip install -r requirements.txt
-```
-*(Coming soon)*
+   ```bash
+   conda create -y -n thinking_with_video python==3.12
+   conda activate thinking_with_video
+   pip install -r requirements.txt
+   ```
+3. Download benchmark datasets from Hugging Face
+   ```bash
+   hf download --repo-type dataset OpenMOSS-Team/VideoThinkBench --local-dir VideoThinkBench
+   cd VideoThinkBench
 
+   # upzip the zip datasets under the `Vision-Centric_Reasoning` and `Text-Centric_Reasoning` folders
+   bash unzip_dir.sh Vision-Centric_Reasoning
+   bash unzip_dir.sh Text-Centric_Reasoning
+
+   # check the statistics of the datasets
+   python check.py Vision-Centric_Reasoning > vision_centric_stats.txt
+   python check.py Text-Centric_Reasoning > text_centric_stats.txt
+   ```
 
 ## VideoThinkBench
 
@@ -85,10 +96,10 @@ VideoThinkBench is a comprehensive benchmark for evaluating video generation mod
 
 ### Text-Centric Tasks
 Adapted from established benchmarks including:
-- **Mathematical Reasoning**: MATH, GSM8K, AIME, MathVista, MathVision
-- **Multimodal Understanding**: MMMU, MMBench
-- **General Knowledge**: MMLU, MMLU-Pro
-- **Scientific Reasoning**: GPQA-diamond, SuperGPQA
+- **Math Reasoning**: GSM8K, MATH-500, AIME24, AIME25
+- **General Knowledge Reasoning**: BBH, MMLU, MMLU-Pro, GPQA-diamond, SuperGPQA-easy
+- **Multimodal Math Reasoning**: MathVista, MathVision
+- **Multimodal Understanding**: MMBench, MMMU 
 
 Dataset is available on [Hugging Face](https://huggingface.co/datasets/fnlp/VideoThinkBench).
 
