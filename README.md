@@ -24,6 +24,7 @@
 
 - [2025.11.07] Our paper "Thinking with Video: Video Generation as a Promising Multimodal Reasoning Paradigm" has been released on arXiv! 📄 [[Paper](https://arxiv.org/abs/2511.04570)] On HuggingFace, it has achieved "#1 Paper of the Day"!
 - [2025.11.07] We have released data generation and evaluation code for Eyeballing Puzzles, Mazes and ARC-AGI-2 tasks under `VisionCentric` submodule (or [here](https://github.com/betmma/VLMPuzzle))!
+- [2025.11.19] We have released data generation and inference code for Visual Puzzles tasks under [`visual_puzzles`](./visual_puzzles)!
 
 
 ## 📜 Brief Introduction <!-- omit in toc -->
